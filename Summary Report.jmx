@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+06-03-2024,756,Get Users,200,OK,Thread Group 1-1,text,true,,2361,132,2,2,https://gorest.co.in/public/v2/users,755,0,125
+06-03-2024,688,Get Users,200,OK,Thread Group 1-2,text,true,,2359,132,2,2,https://gorest.co.in/public/v2/users,687,0,45
+06-03-2024,227,Get Second User,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,1077,140,2,2,https://gorest.co.in/public/v2/users/6944246,227,0,0
+06-03-2024,251,Get Second User,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,1083,140,2,2,https://gorest.co.in/public/v2/users/6944246,251,0,0
+06-03-2024,222,Get User Post,404,Not Found,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,5628,140,2,2,https://gorest.co.in/public/v2/6944246/posts,222,0,0
+06-03-2024,248,Get User Post,404,Not Found,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,5636,140,2,2,https://gorest.co.in/public/v2/6944246/posts,248,0,0
+06-03-2024,243,Get Users,200,OK,Thread Group 1-1,text,true,,2357,132,2,2,https://gorest.co.in/public/v2/users,241,0,0
+06-03-2024,276,Get Users,200,OK,Thread Group 1-2,text,true,,2363,132,2,2,https://gorest.co.in/public/v2/users,276,0,0
+06-03-2024,230,Get Second User,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,1075,140,2,2,https://gorest.co.in/public/v2/users/6944246,229,0,0
+06-03-2024,246,Get Second User,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,1091,140,2,2,https://gorest.co.in/public/v2/users/6944246,246,0,0
+06-03-2024,218,Get User Post,404,Not Found,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,5634,140,2,2,https://gorest.co.in/public/v2/6944246/posts,217,0,0
+06-03-2024,223,Get User Post,404,Not Found,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,5628,140,2,2,https://gorest.co.in/public/v2/6944246/posts,222,0,0
+06-03-2024,227,Get Users,200,OK,Thread Group 1-1,text,true,,2359,132,2,2,https://gorest.co.in/public/v2/users,227,0,0
+06-03-2024,262,Get Users,200,OK,Thread Group 1-2,text,true,,2357,132,2,2,https://gorest.co.in/public/v2/users,261,0,0
+06-03-2024,223,Get Second User,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,1077,140,2,2,https://gorest.co.in/public/v2/users/6944246,223,0,0
+06-03-2024,225,Get Second User,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,1079,140,2,2,https://gorest.co.in/public/v2/users/6944246,225,0,0
+06-03-2024,237,Get User Post,404,Not Found,Thread Group 1-1,text,false,Test failed: text expected to contain /Resource not found/,5626,140,2,2,https://gorest.co.in/public/v2/6944246/posts,236,0,0
+06-03-2024,227,Get User Post,404,Not Found,Thread Group 1-2,text,false,Test failed: text expected to contain /Resource not found/,5616,140,1,1,https://gorest.co.in/public/v2/6944246/posts,226,0,0
